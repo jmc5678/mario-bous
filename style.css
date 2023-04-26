@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+
+
+  html {
+    background: url(fondo.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    }
+    
+  .corredor {
+    width: 990px;
+    height: 990px;
+    background: url('ddtazpo-bd85e1ce-3831-45cf-aa8b-322915a3eb4a.gif') no-repeat 100px 100px ;
+    position: absolute;
+    bottom: 0;
+  }
+  #objeto {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background: url(MarioA.png) no-repeat 1px 1px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
